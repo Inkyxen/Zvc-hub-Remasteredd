@@ -227,7 +227,7 @@ end })
 
 local keysystemTab = window:CreateTab({ Name = "Hubs With Keys", icon = 93364949241311 })
 
-keysystemTab = window:CreateSection({ Name = "Universal", icon = 93364949241311 })
+keysystemtab:CreateSection({ name = "Universal", icon = 93364949241311 })
 
 keysystemTab:CreateButton({ Name = "Ghost Hub", Callback = function() 
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ghost-hub-keyless-65732"))()
