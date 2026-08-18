@@ -3,7 +3,7 @@ local Rayfield = loadstring(game:HttpGet("https://sirius.menu/gen2"))()
 local window = Rayfield:CreateWindow({ 
     Name = "Zvc Hub Remastered", 
     Subtitle = "Remastered By Inky", 
-    Theme = "cobalt", 
+    Theme = "Amber", 
     Configuration = { 
         AutoSave = true, 
         AutoLoad = true, 
@@ -232,6 +232,5 @@ keysystemTab:CreateSection({ name = "Universal", icon = 93364949241311 })
 keysystemTab:CreateButton({ Name = "Ghost Hub", Callback = function() 
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ghost-hub-keyless-65732"))()
 end })
-
 
 
