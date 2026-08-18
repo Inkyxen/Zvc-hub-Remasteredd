@@ -89,6 +89,14 @@ hubsTab:CreateButton({ Name = "Universal Script Searcher", Callback = function()
     loadstring(game:HttpGet("http://scripthub.ultimatex.store"))() 
 end })
 
+hubsTab:CreateButton({ Name = "Jarvis Hub", Callback = function() 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/HeyGyt/jarvisv1/refs/heads/main/jarvis"))()
+end })
+
+hubsTab:CreateButton({ Name = "An Hub", Callback = function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/GUI-Offical/FileTest/refs/heads/main/ANHUBB.lua'))()
+end })
+
 local scriptsTab = window:CreateTab({ Name = "Scripts", Icon = 93364949241311 })
 
 scriptsTab:CreateSection({ Name = "Gui" })
@@ -135,6 +143,22 @@ end })
 
 toolsTab:CreateButton({ Name = "Fly 2", Callback = function() 
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fly-script-v3-16742"))() 
+end })
+
+toolsTab:CreateButton({ Name = "Telekinesis Fling 1", Callback = function() 
+    loadstring(game:HttpGet("https://pastebin.com/raw/biR1ZZA9"))()
+end })
+
+toolsTab:CreateButton({ Name = "Telekinesis 2", Callback = function() 
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Telekinesis-You-can-only-lift-unanc*d-things-237340"))()
+end })
+
+toolsTab:CreateButton({ Name = "Telekinesis 3", Callback = function() 
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-telekinetic-66554"))()
+end })
+
+toolsTab:CreateButton({ Name = "Telekinesis 4", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty1.lua"))()
 end })
 
 local trollingTab = window:CreateTab({ Name = "Trolling", Icon = 93364949241311 })
@@ -196,3 +220,4 @@ end })
 adminTab:CreateButton({ Name = "Nameless Admin", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))() 
 end })
+
