@@ -97,6 +97,10 @@ hubsTab:CreateButton({ Name = "An Hub", Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/GUI-Offical/FileTest/refs/heads/main/ANHUBB.lua'))()
 end })
 
+hubsTab:CreateButton({ Name = "Bacon Hub", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconHub1/Autoupdate/refs/heads/main/Cuz%20yes"))()
+end })
+
 local scriptsTab = window:CreateTab({ Name = "Scripts", Icon = 93364949241311 })
 
 scriptsTab:CreateSection({ Name = "Gui" })
@@ -220,4 +224,14 @@ end })
 adminTab:CreateButton({ Name = "Nameless Admin", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))() 
 end })
+
+local keysystemTab = window:CreateTab({ Name = "Hubs With Keys", icon = 93364949241311 })
+
+local keysystemTab = window:CreateTab({ Name = "Universal", icon = 93364949241311 })
+
+keysystemTab:CreateButton({ Name = "Ghost Hub", Callback = function() 
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ghost-hub-keyless-65732"))()
+end })
+
+
 
