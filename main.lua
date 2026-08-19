@@ -253,11 +253,10 @@ gamesTab:CreateButton({ Name = "Prison Life", Callback = function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/nlzzpro/rscripts/refs/heads/main/prisonlife'))()
 end })
 
-gamesTab:CreateButton({ Name = "Foxname 99 Nights", Callback = function() 
-    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Foxname-65930"))()
+gamesTab:CreateButton({ Name = "Your Natural Disaster Hub", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Inkyxen/Nds-Hub/refs/heads/main/Your%20Natural%20Disaster%20Hub"))()
 end })
 
-
-
-
-
+gamesTab:CreateButton({ Name = "Your 99 Nights Hub", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Inkyxen/Your-99-nights-hub/refs/heads/main/Your%2099%20Nights%20Hub"))()
+end })
