@@ -101,6 +101,10 @@ hubsTab:CreateButton({ Name = "Bacon Hub", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/BaconHub1/Autoupdate/refs/heads/main/Cuz%20yes"))()
 end })
 
+hubsTab:CreateButton({ Name = "Speed Hub X", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+end })
+
 local scriptsTab = window:CreateTab({ Name = "Scripts", Icon = 93364949241311 })
 
 scriptsTab:CreateSection({ Name = "Gui" })
@@ -232,5 +236,19 @@ keysystemTab:CreateSection({ name = "Universal", icon = 93364949241311 })
 keysystemTab:CreateButton({ Name = "Ghost Hub", Callback = function() 
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ghost-hub-keyless-65732"))()
 end })
+
+local gamesTab = window:CreateTab({ Name = "Games", icon = 93364949241311 })
+
+gamesTab:CreateSection({ name = "Scripts", icon = 93364949241311 })
+
+gamesTab:CreateButton({ Name = "Prison Life", Callback = function() 
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/nlzzpro/rscripts/refs/heads/main/prisonlife'))()
+end })
+
+gamesTab:CreateButton({ Name = "Foxname 99 Nights", Callback = function() 
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Foxname-65930"))()
+end })
+
+
 
 
