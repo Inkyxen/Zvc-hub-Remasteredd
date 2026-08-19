@@ -195,11 +195,17 @@ end })
 
 local fescriptsTab = window:CreateTab({ Name = "Fe Scripts", Icon = 93364949241311 })
 
-fescriptsTab:CreateSection({ Name = "Animation" })
+fescriptsTab:CreateSection({ Name = "R15" })
 
 fescriptsTab:CreateButton({ Name = "R15 Emotes", Callback = function() 
     loadstring(game:HttpGet("https://luascript-on.vercel.app/raw/0ea85807-4441-4bcd-a469-55481b6fe5b5"))() 
 end })
+
+fescriptsTab:CreateButton({ Name = "Sonic R15", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Azizanzz0/FE-R15-Sonic-X-Super/refs/heads/main/Protected%20SonicXSuper.txt"))()
+end })
+
+fescriptsTab:CreateSection({ Name = "R6" })
 
 fescriptsTab:CreateButton({ Name = "R6 Animation", Callback = function() 
     loadstring(game:HttpGet("https://pastefy.app/UC2OHMhe/raw"))() 
