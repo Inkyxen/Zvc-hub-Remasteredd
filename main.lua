@@ -249,10 +249,6 @@ local gamesTab = window:CreateTab({ Name = "Games", icon = 93364949241311 })
 
 gamesTab:CreateSection({ name = "Scripts", icon = 93364949241311 })
 
-gamesTab:CreateButton({ Name = "Prison Life", Callback = function() 
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/nlzzpro/rscripts/refs/heads/main/prisonlife'))()
-end })
-
 gamesTab:CreateButton({ Name = "Your Natural Disaster Hub", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Inkyxen/Nds-Hub/refs/heads/main/Your%20Natural%20Disaster%20Hub"))()
 end })
@@ -260,3 +256,8 @@ end })
 gamesTab:CreateButton({ Name = "Your 99 Nights Hub", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Inkyxen/Your-99-nights-hub/refs/heads/main/Your%2099%20Nights%20Hub"))()
 end })
+
+gamesTab:CreateButton({ Name = "Your Prison Life Hub", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Inkyxen/Your-Prison-Life-Hub/refs/heads/main/Your%20Prison%20Life%20Hub"))()
+end })
+
