@@ -105,6 +105,10 @@ hubsTab:CreateButton({ Name = "Speed Hub X", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
 end })
 
+hubsTab:CreateButton({ Name = "Nyx Mods Hub", Callback = function() 
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-NyxMods-Universal-245609"))()
+end })
+
 local scriptsTab = window:CreateTab({ Name = "Scripts", Icon = 93364949241311 })
 
 scriptsTab:CreateSection({ Name = "Gui" })
@@ -213,6 +217,10 @@ funTab:CreateButton({ Name = "Welding Abuse", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/rangell8/Rexys-Welding-Hub/refs/heads/main/script"))() 
 end })
 
+funTab:CreateButton({ Name = "Fast Fredbear", Callback = function() 
+    loadstring(game:HttpGet("https://pastebin.com/raw/wbEc0ThZ"))()
+end })
+
 local adminTab = window:CreateTab({ Name = "Admin", Icon = 93364949241311 })
 
 adminTab:CreateSection({ Name = "Admin" })
@@ -248,6 +256,7 @@ end })
 gamesTab:CreateButton({ Name = "Foxname 99 Nights", Callback = function() 
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Foxname-65930"))()
 end })
+
 
 
 
