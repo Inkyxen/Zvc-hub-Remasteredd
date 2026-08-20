@@ -205,6 +205,10 @@ fescriptsTab:CreateButton({ Name = "Sonic R15", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Azizanzz0/FE-R15-Sonic-X-Super/refs/heads/main/Protected%20SonicXSuper.txt"))()
 end })
 
+fescriptsTab:CreateButton({ Name = "Uhhh Reanimate", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh/main/source/reanim.lua"))()
+end })
+
 fescriptsTab:CreateSection({ Name = "R6" })
 
 fescriptsTab:CreateButton({ Name = "R6 Animation", Callback = function() 
@@ -227,6 +231,10 @@ funTab:CreateButton({ Name = "Fast Fredbear", Callback = function()
     loadstring(game:HttpGet("https://pastebin.com/raw/wbEc0ThZ"))()
 end })
 
+funTab:CreateButton({ Name = "Wither Storm", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Wither"))()
+end })
+
 local adminTab = window:CreateTab({ Name = "Admin", Icon = 93364949241311 })
 
 adminTab:CreateSection({ Name = "Admin" })
@@ -241,6 +249,10 @@ end })
 
 adminTab:CreateButton({ Name = "Nameless Admin", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))() 
+end })
+
+adminTab:CreateButton({ Name = "Paranoia Admin", Callback = function() 
+    loadstring(game:HttpGet("https://idx.lol/latest.lua"))()
 end })
 
 local keysystemTab = window:CreateTab({ Name = "Hubs With Keys", icon = 93364949241311 })
