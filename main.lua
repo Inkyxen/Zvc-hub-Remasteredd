@@ -217,6 +217,14 @@ fescriptsTab:CreateButton({ Name = "Ink Monster R15", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty14.lua"))()
 end })
 
+fescriptsTab:CreateButton({ Name = "R15 Mini Car", Callback = function() 
+    loadstring(game:HttpGet("https://pastefy.app/UqDEIOpO/raw"))()
+end })
+
+fescriptsTab:CreateButton({ Name = "R15 Katana", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty12.lua"))()
+end })
+
 fescriptsTab:CreateSection({ Name = "R6" })
 
 fescriptsTab:CreateButton({ Name = "R6 Animation", Callback = function() 
@@ -296,4 +304,3 @@ end })
 gamesTab:CreateButton({ Name = "Your Prison Life Hub", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Inkyxen/Your-Prison-Life-Hub/refs/heads/main/Your%20Prison%20Life%20Hub"))()
 end })
-
