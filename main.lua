@@ -177,6 +177,10 @@ toolsTab:CreateButton({ Name = "Netless 1", Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-hat-fall-82624"))()
 end })
 
+toolsTab:CreateButton({ Name = "Delta Keyboard", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Xxtan31/Ata/main/deltakeyboardcrack.txt", true))()
+end })
+
 local trollingTab = window:CreateTab({ Name = "Trolling", Icon = 93364949241311 })
 
 trollingTab:CreateSection({ Name = "Trolling" })
@@ -231,10 +235,20 @@ fescriptsTab:CreateButton({ Name = "R6 Animation", Callback = function()
     loadstring(game:HttpGet("https://pastefy.app/UC2OHMhe/raw"))() 
 end })
 
-fescriptsTab:CreateSection({ Name = "Supports All Bundles" })
+fescriptsTab:CreateSection({ Name = "Supports All Body Types" })
 
 fescriptsTab:CreateButton({ Name = "Uhhh Reanimate", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh/main/source/reanim.lua"))()
+end })
+
+fescriptsTab:CreateSection({ Name = "Needs Hats Or Rigs" })
+
+fescriptsTab:CreateButton({ Name = "Fe Noli Hats", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty0.lua"))()
+end })
+
+fescriptsTab:CreateButton({ Name = "Fe Coolkid Hats", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty2.lua"))()
 end })
 
 local funTab = window:CreateTab({ Name = "Fun", Icon = 93364949241311 })
@@ -304,3 +318,4 @@ end })
 gamesTab:CreateButton({ Name = "Your Prison Life Hub", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Inkyxen/Your-Prison-Life-Hub/refs/heads/main/Your%20Prison%20Life%20Hub"))()
 end })
+
