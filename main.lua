@@ -173,6 +173,10 @@ toolsTab:CreateButton({ Name = "Telekinesis 4", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty1.lua"))()
 end })
 
+toolsTab:CreateButton({ Name = "Netless 1", Callback = function() 
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Anti-hat-fall-82624"))()
+end })
+
 local trollingTab = window:CreateTab({ Name = "Trolling", Icon = 93364949241311 })
 
 trollingTab:CreateSection({ Name = "Trolling" })
@@ -198,21 +202,31 @@ local fescriptsTab = window:CreateTab({ Name = "Fe Scripts", Icon = 933649492413
 fescriptsTab:CreateSection({ Name = "R15" })
 
 fescriptsTab:CreateButton({ Name = "R15 Emotes", Callback = function() 
-    loadstring(game:HttpGet("https://luascript-on.vercel.app/raw/0ea85807-4441-4bcd-a469-55481b6fe5b5"))() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Bac0nHck/Scripts/refs/heads/main/BundleAnimations.lua"))()
 end })
 
 fescriptsTab:CreateButton({ Name = "Sonic R15", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Azizanzz0/FE-R15-Sonic-X-Super/refs/heads/main/Protected%20SonicXSuper.txt"))()
 end })
 
-fescriptsTab:CreateButton({ Name = "Uhhh Reanimate", Callback = function() 
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh/main/source/reanim.lua"))()
+fescriptsTab:CreateButton({ Name = "Drone R15", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty16.lua"))()
+end })
+
+fescriptsTab:CreateButton({ Name = "Ink Monster R15", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty14.lua"))()
 end })
 
 fescriptsTab:CreateSection({ Name = "R6" })
 
 fescriptsTab:CreateButton({ Name = "R6 Animation", Callback = function() 
     loadstring(game:HttpGet("https://pastefy.app/UC2OHMhe/raw"))() 
+end })
+
+fescriptsTab:CreateSection({ Name = "Supports All Bundles" })
+
+fescriptsTab:CreateButton({ Name = "Uhhh Reanimate", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/STEVE-916-create/Uhhhhhh/main/source/reanim.lua"))()
 end })
 
 local funTab = window:CreateTab({ Name = "Fun", Icon = 93364949241311 })
@@ -233,6 +247,10 @@ end })
 
 funTab:CreateButton({ Name = "Wither Storm", Callback = function() 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Wither"))()
+end })
+
+funTab:CreateButton({ Name = "Control Npcs", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/randomstring0/qwertys/refs/heads/main/qwerty8.lua"))()
 end })
 
 local adminTab = window:CreateTab({ Name = "Admin", Icon = 93364949241311 })
