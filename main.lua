@@ -109,6 +109,10 @@ hubsTab:CreateButton({ Name = "Nyx Mods Hub", Callback = function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-NyxMods-Universal-245609"))()
 end })
 
+hubsTab:CreateButton({ Name = "Ghost Hub", Callback = function() 
+    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ghost-hub-keyless-65732"))()
+end })
+
 local scriptsTab = window:CreateTab({ Name = "Scripts", Icon = 93364949241311 })
 
 scriptsTab:CreateSection({ Name = "Gui" })
@@ -129,10 +133,22 @@ scriptsTab:CreateButton({ Name = "Coolkid Gui V3", Callback = function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MiRw3b/c00lgui-v3rx/main/c00lguiv3rx.lua"))() 
 end })
 
-scriptsTab:CreateButton({ Name = "Coolkid Gui V4", Callback = function() 
-    loadstring(game:HttpGet("https://rawscripts.net/raw/Natural-Disaster-Survival-c00lkidds-op-trolling-gui-of-nds-30335%22))("))()
+scriptsTab:CreateSection({ Name = "Executors" })
+
+scriptsTab:CreateButton({ Name = "Coolkid Executor", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GOJO07775/C00lkiddK1ng-GUI/bb47ccdd3540216eae52b96569bf17671f0ea41d/C00lkiddK1ng%20GUI", true))()
 end })
-  
+
+scriptsTab:CreateSection({ Name = "Backdoor Executors" })
+
+scriptsTab:CreateButton({ Name = "Lalol Executor", Callback = function() 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script"))()
+end })
+
+scriptsTab:CreateButton({ Name = "Syntax Executor", Callback = function() 
+    loadstring(game:HttpGet('https://bitbucket.org/projects_early26/new/raw/0cd464afb03269ef1134a30fc8c407162e88dcac/v1.2.5.lua'))()
+end })
+
 local toolsTab = window:CreateTab({ Name = "Tools", Icon = 93364949241311 })
 
 toolsTab:CreateSection({ Name = "Tools" })
@@ -293,14 +309,6 @@ end })
 
 adminTab:CreateButton({ Name = "Paranoia Admin", Callback = function() 
     loadstring(game:HttpGet("https://idx.lol/latest.lua"))()
-end })
-
-local keysystemTab = window:CreateTab({ Name = "Hubs With Keys", icon = 93364949241311 })
-
-keysystemTab:CreateSection({ name = "Universal", icon = 93364949241311 })
-
-keysystemTab:CreateButton({ Name = "Ghost Hub", Callback = function() 
-    loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Ghost-hub-keyless-65732"))()
 end })
 
 local gamesTab = window:CreateTab({ Name = "Games", icon = 93364949241311 })
